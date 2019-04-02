@@ -43,3 +43,13 @@ def number_to_full_month_name(number)
     return "September"
   end
 end
+
+def number_to_short_month_name(number)
+  if number == 1
+    return "Jan"
+  elsif number == 4
+    return "Apr"
+  elsif number == 10
+    return "Oct"
+  end
+end
