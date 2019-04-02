@@ -55,6 +55,14 @@ def number_to_short_month_name(number)
 end
 
 
-def length(num)
-  return num*num*num
+def volume_cube(length)
+  return (length**3)
 end
+
+def volume_sphere(r)
+  return ((4 / 3.to_f * 3.14) * 2**3).to_i
+end
+
+# def farenheit_to_celsius(num)
+#   return ()(num - 32) * (5 / 9))
+# end
