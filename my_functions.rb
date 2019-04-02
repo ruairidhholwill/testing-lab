@@ -63,6 +63,6 @@ def volume_sphere(r)
   return ((4 / 3.to_f * 3.14) * 2**3).to_i
 end
 
-# def farenheit_to_celsius(num)
-#   return ()(num - 32) * (5 / 9))
-# end
+def farenheit_to_celsius(farenheit_temperature)
+  return ((farenheit_temperature - 32) * (5 / 9.to_f)).to_i
+end
