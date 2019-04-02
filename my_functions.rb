@@ -53,3 +53,8 @@ def number_to_short_month_name(number)
     return "Oct"
   end
 end
+
+
+def length(num)
+  return num*num*num
+end
