@@ -21,6 +21,7 @@ end
 def divide(num1, num2)
   return num1 / num2
 end
+# NOTES: parameters should be num_1 etc
 
 def length_of_string(string)
   return string.length
@@ -43,6 +44,7 @@ def number_to_full_month_name(number)
     return "September"
   end
 end
+# NOTES: Could use case
 
 def number_to_short_month_name(number)
   if number == 1
@@ -53,7 +55,7 @@ def number_to_short_month_name(number)
     return "Oct"
   end
 end
-
+# NOTES: Can use .slice
 
 def volume_cube(length)
   return (length**3)
@@ -62,6 +64,9 @@ end
 def volume_sphere(r)
   return ((4 / 3.to_f * 3.14) * 2**3).to_i
 end
+# NOTES: instead of .to_f can just add .0 to end of integer to make it a float
+# NOTES: Can get pie by doing MATH::PI
+# NOTES: Should be r**3
 
 def farenheit_to_celsius(farenheit_temperature)
   return ((farenheit_temperature - 32) * (5 / 9.to_f)).to_i
